@@ -9,4 +9,4 @@
 * **Підхід:** Mobile First (375px -> 768px -> 1280px)
 
 ## Публікація
-🔗 **Live Demo:** [https://yurievoleksandr-ui.github.io/landing-keepsake/](https://yurievoleksandr-ui.github.io/landing-keepsake/)
+ **Live Demo:** [https://yurievoleksandr-ui.github.io/landing-keepsake/](https://yurievoleksandr-ui.github.io/landing-keepsake/)
