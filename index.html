@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Keepsake — Digital & Branding Agency</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Open+Sans:ital,wght@0,300..700;1,300..700&family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="container header-container">
+      <a href="#" class="logo"><span>K</span>Keepsake</a>
+
+      <input type="checkbox" id="burger-toggle" class="burger-checkbox" hidden>
+      <label for="burger-toggle" class="burger-btn" aria-label="Toggle Navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+
+      <nav class="nav-menu">
+        <ul class="nav-list">
+          <li><a href="#hero" class="active">Home</a></li>
+          <li><a href="#works">Works</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#journal">Journal</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <a href="#" class="btn-fav" aria-label="Favourites">
+          <svg width="18" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M9 15S1.5 10 1.5 4.5C1.5 2.5 3 1 5 1C6.8 1 8.2 2.2 9 3.5C9.8 2.2 11.2 1 13 1C15 1 16.5 2.5 16.5 4.5C16.5 10 9 15 9 15Z" stroke="#3A3A3C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section id="hero" class="hero-section">
+    <div class="container hero-container">
+      <p class="hero-subtitle">HELLO & WELCOME</p>
+      <h1 class="hero-title">WE'RE KEEPSAKE, A DIGITAL & BRANDING AGENCY</h1>
+      <p class="hero-text">We craft beautiful brands, web experiences, and digital products for ambitious clients around the world.</p>
+    </div>
+  </section>
+
+  <!-- WORKS / PORTFOLIO SECTION -->
+  <section id="works" class="works-section container">
+    <h2 class="section-title">Our Awesome Works</h2>
+    
+    <div class="filters-wrapper">
+      <input type="radio" name="filter" id="filter-all" checked hidden>
+      <input type="radio" name="filter" id="filter-branding" hidden>
+      <input type="radio" name="filter" id="filter-web" hidden>
+      <input type="radio" name="filter" id="filter-identity" hidden>
+      <input type="radio" name="filter" id="filter-print" hidden>
+
+      <div class="filter-chips">
+        <label for="filter-all" class="chip">All</label>
+        <label for="filter-branding" class="chip">Branding</label>
+        <label for="filter-web" class="chip">Web</label>
+        <label for="filter-identity" class="chip">Identity</label>
+        <label for="filter-print" class="chip">Print</label>
+      </div>
+
+      <div class="works-grid">
+        <article class="work-card" data-category="branding">
+          <img src="images/work.avif" alt="Paper Branding" loading="lazy">
+          <div class="overlay">
+            <span class="btn-plus">+</span>
+            <h3 class="work-title">Piece of Paper</h3>
+            <p class="work-category">Branding</p>
+          </div>
+        </article>
+
+        <article class="work-card" data-category="web">
+          <img src="images/work.avif" alt="Digital Media" loading="lazy">
+          <div class="overlay">
+            <span class="btn-plus">+</span>
+            <h3 class="work-title">Vinyl Record</h3>
+            <p class="work-category">Web</p>
+          </div>
+        </article>
+
+        <article class="work-card" data-category="identity">
+          <img src="images/work.avif" alt="Identity Mockup" loading="lazy">
+          <div class="overlay">
+            <span class="btn-plus">+</span>
+            <h3 class="work-title">Corporate Envelope</h3>
+            <p class="work-category">Identity</p>
+          </div>
+        </article>
+
+        <article class="work-card" data-category="print">
+          <img src="images/work.avif" alt="Print Design" loading="lazy">
+          <div class="overlay">
+            <span class="btn-plus">+</span>
+            <h3 class="work-title">Minimalist Card</h3>
+            <p class="work-category">Print</p>
+          </div>
+        </article>
+
+        <article class="work-card" data-category="branding">
+          <img src="images/work.avif" alt="Geometry Concept" loading="lazy">
+          <div class="overlay">
+            <span class="btn-plus">+</span>
+            <h3 class="work-title">Geometric Identity</h3>
+            <p class="work-category">Branding</p>
+          </div>
+        </article>
+
+        <article class="work-card" data-category="web">
+          <img src="images/work.avif" alt="Stationery Set" loading="lazy">
+          <div class="overlay">
+            <span class="btn-plus">+</span>
+            <h3 class="work-title">Black & Pink Book</h3>
+            <p class="work-category">Web</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA BANNER -->
+  <section class="cta-section">
+    <div class="container cta-container">
+      <h2 class="cta-title">WOULD YOU LIKE TO WORK WITH US?</h2>
+      <a href="#contact" class="btn btn-primary">Get In Touch</a>
+    </div>
+  </section>
+
+  <!-- SERVICES SECTION -->
+  <section id="services" class="services-section container">
+    <h2 class="section-title">Our Services</h2>
+    <div class="services-grid">
+      <div class="service-card">
+        <div class="service-icon">✦</div>
+        <h3 class="service-title">Branding</h3>
+        <p class="service-desc">We build memorable visual identities that stand out and leave a lasting impression.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">⚡</div>
+        <h3 class="service-title">Web Design</h3>
+        <p class="service-desc">Responsive, intuitive interfaces designed to engage users and convert visitors.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">◈</div>
+        <h3 class="service-title">Development</h3>
+        <p class="service-desc">Clean, fast, semantic code built with modern web standards and accessibility in mind.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">♥</div>
+        <h3 class="service-title">Digital Marketing</h3>
+        <p class="service-desc">Strategic campaigns aimed at growing brand reach and maximizing impact.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- STATS COUNTER -->
+  <section class="stats-section">
+    <div class="container stats-container">
+      <div class="stat-item">
+        <span class="stat-number">120+</span>
+        <span class="stat-label">Projects Completed</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-number">45</span>
+        <span class="stat-label">Happy Clients</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-number">15</span>
+        <span class="stat-label">Design Awards</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-number">8</span>
+        <span class="stat-label">Years Experience</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- JOURNAL SECTION -->
+  <section id="journal" class="journal-section container">
+    <h2 class="section-title">Latest From Journal</h2>
+    <div class="journal-grid">
+      <article class="journal-card">
+        <img src="images/journal.avif" alt="Journal 1" class="journal-img" loading="lazy">
+        <div class="journal-content">
+          <span class="journal-date">April 10, 2026</span>
+          <h3 class="journal-title">The Future of Responsive Web Design</h3>
+          <p class="journal-excerpt">Exploring how CSS Grid, Flexbox, and container queries shape modern digital products.</p>
+        </div>
+      </article>
+
+      <article class="journal-card">
+        <img src="images/journal.avif" alt="Journal 2" class="journal-img" loading="lazy">
+        <div class="journal-content">
+          <span class="journal-date">March 28, 2026</span>
+          <h3 class="journal-title">Building Strong Visual Brand Identities</h3>
+          <p class="journal-excerpt">Why consistency and minimalism drive consumer trust across global markets.</p>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer id="contact" class="footer">
+    <div class="container footer-container">
+      <div class="footer-col">
+        <a href="#" class="logo footer-logo"><span>K</span>Keepsake</a>
+        <p class="footer-about">Keepsake is a full-service creative agency based in Chernivtsi, crafting digital products for visionary brands worldwide.</p>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-heading">Navigation</h4>
+        <ul class="footer-links">
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#works">Works</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#journal">Journal</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-heading">Subscribe</h4>
+        <form class="subscribe-form" action="#">
+          <input type="email" placeholder="Your email address" required>
+          <button type="submit" class="btn btn-primary">Send</button>
+        </form>
+      </div>
+    </div>
+
+    <div class="footer-bottom container">
+      <p>&copy; 2026 Keepsake Agency. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- BACK TO TOP BUTTON -->
+  <a href="#" class="back-to-top" aria-label="Back to Top">↑</a>
+
+</body>
+</html>
